@@ -2,7 +2,7 @@ import math
 
 def dpamostral(*args):
  
- #calcula a média dos numeros
+ # calcula a média dos numeros
  media = (sum(args) / len(args))
 
  # calcula o desvio de cada numero e eleva ao quadrado, formando lista
@@ -18,7 +18,7 @@ def dpamostral(*args):
 
  return dpfinal
 
-
+# substituir "0.805, 0.8488, 0.9015, 0.8978, 0.8819, 0.8816, 0.875, 0.8758" por quaisquer numeros cujo desvio padrao é necessario calcular
 print(f"Desvio Padrão: {dpamostral(0.805, 0.8488, 0.9015, 0.8978, 0.8819, 0.8816, 0.875, 0.8758)}")
 
 
